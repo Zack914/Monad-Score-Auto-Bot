@@ -1,40 +1,44 @@
+Dưới đây là bản dịch tiếng Việt của hướng dẫn sử dụng 
+**MonadScore CLI Version**:
+
+---
+
 # ᝰ.ᐟ MonadScore
 
+## 🚨 Lưu ý Trước Khi Chạy Phiên Bản Dòng Lệnh (CLI) của MonadScore
 
-## 🚨 Attention Before Running MonadScore Cli Version
+Tôi **không chịu trách nhiệm** nếu tài khoản của bạn bị **cấm**!
 
-I am not `responsible` for the possibility of an account being `banned`!
+## 📎 Các tính năng của Script MonadScore Node CLI
 
-## 📎 MonadScore Node cli version Script features
+- Tự động reff
+- Tự động chạy node
+- Tự động làm nhiệm vụ
+- Hỗ trợ dùng hoặc không dùng proxy
+- Hỗ trợ đa luồng, nhiều tài khoản cùng lúc
 
-- Auto reff
-- Auto run node
-- Auto task
-- Support proxy or not
-- Mutiple threads, multiple accounts
+## ✎ᝰ. CÁCH CHẠY
 
-## ✎ᝰ. RUNNING
-
-- Clone Repository
+- Clone repository
 
 ```bash
 git clone https://github.com/Zack914/Monad-Score-Auto-Bot.git
 cd Monad-Score-Auto-Bot
 ```
 
-- Install Dependency
+- Cài đặt các thư viện cần thiết
 
 ```bash
 npm install
 ```
 
-- Setup config in .env
+- Thiết lập cấu hình trong file `.env`
 
 ```bash
 nano .env
 ```
 
-- Setup input value
+- Nhập giá trị đầu vào
 
 * proxy: http://user:pass@ip:port
 
@@ -48,10 +52,12 @@ nano proxy.txt
 nano privateKeys.txt
 ```
 
-- Run the script
+- Chạy script
 
 ```bash
 node main.js
 ```
 
-Last updated: Thu May  1 03:35:40 UTC 2025
+Last updated:
+
+---
