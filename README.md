@@ -1,6 +1,5 @@
 # ᝰ.ᐟ MonadScore
 
-Tool được phát triển bởi nhóm tele Airdrop Hunter Siêu Tốc (https://t.me/airdrophuntersieutoc)
 
 ## 🚨 Attention Before Running MonadScore Cli Version
 
