@@ -6,7 +6,7 @@
     "ethers": "^6.13.5",
     "https-proxy-agent": "^7.0.6",
     "jwt-decode": "^4.0.0",
-    "evmlogger": "^1.0.6",
+    "evmlogger": "^1.0.7",
     "socks-proxy-agent": "^8.0.5",
     "uuid": "^11.1.0"
   }
